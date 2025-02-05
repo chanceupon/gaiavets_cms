@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_page_why_people_loveuses",
+  "info": {
+    "displayName": "WhyPeopleLoveUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reviewCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.item-why-people-love-us"
+    }
+  }
+}

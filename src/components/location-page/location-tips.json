@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_location_page_location_tips",
+  "info": {
+    "displayName": "LocationTips",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "location-page.item-location-tip"
+    }
+  }
+}

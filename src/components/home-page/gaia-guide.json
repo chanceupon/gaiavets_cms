@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_page_gaia_guides",
+  "info": {
+    "displayName": "GaiaGuide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "smallText": {
+      "type": "text"
+    },
+    "bigText": {
+      "type": "text"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.item-achievement"
+    },
+    "bigTextMobile": {
+      "type": "text"
+    }
+  }
+}

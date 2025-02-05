@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_page_item_why_people_loveuses",
+  "info": {
+    "displayName": "ItemReviewCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "star": {
+      "type": "float"
+    }
+  }
+}

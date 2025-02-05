@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_meta_pages",
+  "info": {
+    "displayName": "MetaPage"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

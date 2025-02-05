@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_location_page_locations",
+  "info": {
+    "displayName": "Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mapIframe": {
+      "type": "text"
+    },
+    "information": {
+      "type": "json"
+    },
+    "buttonCallNow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "buttonWhatsapp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "locationTips": {
+      "type": "component",
+      "repeatable": false,
+      "component": "location-page.location-tips"
+    }
+  }
+}

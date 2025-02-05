@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_item_socials",
+  "info": {
+    "displayName": "Item Social"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

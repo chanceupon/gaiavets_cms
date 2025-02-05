@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_guide_page_guide_headers",
+  "info": {
+    "displayName": "GuideHeader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

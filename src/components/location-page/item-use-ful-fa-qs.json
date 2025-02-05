@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_location_page_item_use_ful_fa_qs",
+  "info": {
+    "displayName": "ItemUseFulFAQs"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

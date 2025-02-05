@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_page_what_drives",
+  "info": {
+    "displayName": "WhatDrives",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "listWhatDrives": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.item-what-drives"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+diff --git a/node_modules/@strapi/admin/dist/_chunks/en-LlTBXie5.mjs b/node_modules/@strapi/admin/dist/_chunks/en-LlTBXie5.mjs
+index 77f716d..18bf78b 100644
+--- a/node_modules/@strapi/admin/dist/_chunks/en-LlTBXie5.mjs
++++ b/node_modules/@strapi/admin/dist/_chunks/en-LlTBXie5.mjs
+@@ -61,8 +61,8 @@ const en = {
+   "Auth.form.rememberMe.label": "Remember me",
+   "Auth.form.username.label": "Username",
+   "Auth.form.username.placeholder": "e.g. Kai_Doe",
+-  "Auth.form.welcome.subtitle": "Log in to your Strapi account",
+-  "Auth.form.welcome.title": "Welcome to Strapi!",
++  "Auth.form.welcome.subtitle": "Log in to your Gaia account",
++  "Auth.form.welcome.title": "Welcome to Gaia!",
+   "Auth.link.forgot-password": "Forgot your password?",
+   "Auth.link.ready": "Ready to sign in?",
+   "Auth.link.signin": "Sign in",
+@@ -478,7 +478,7 @@ const en = {
+   "app.components.LeftMenu.general": "General",
+   "app.components.LeftMenu.logo.alt": "Application logo",
+   "app.components.LeftMenu.logout": "Logout",
+-  "app.components.LeftMenu.navbrand.title": "Strapi Dashboard",
++  "app.components.LeftMenu.navbrand.title": "Gaia Dashboard",
+   "app.components.LeftMenu.navbrand.workplace": "Workplace",
+   "app.components.LeftMenu.plugins": "Plugins",
+   "app.components.LeftMenuFooter.help": "Help",

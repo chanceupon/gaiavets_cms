@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "team-page.team-info",
+        "location-page.use-ful-fa-qs",
+        "location-page.location",
+        "location-page.location-tips",
+        "home-page.why-people-love-us",
+        "home-page.why-choose-us",
+        "home-page.our-locations",
+        "home-page.gaia-guide",
+        "home-page.for-all-your-pet-needs",
+        "home-page.banner",
+        "common.menu",
+        "common.document",
+        "services-page.banner-service",
+        "about-page.what-drives",
+        "about-page.about-us",
+        "guide-page.guide-header",
+        "services-page.all-services"
+      ]
+    }
+  }
+}

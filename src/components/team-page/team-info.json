@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_team_page_team_infos",
+  "info": {
+    "displayName": "TeamInfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonBookNow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-page.member"
+    }
+  }
+}

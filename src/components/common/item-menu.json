@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_item_menus",
+  "info": {
+    "displayName": "Item Menu"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "text"
+    },
+    "menuChildren": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_location_page_use_ful_fa_qs",
+  "info": {
+    "displayName": "UseFulFAQs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "location-page.item-use-ful-fa-qs"
+    }
+  }
+}

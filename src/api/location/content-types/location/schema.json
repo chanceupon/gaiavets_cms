@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "locations",
+  "info": {
+    "singularName": "location",
+    "pluralName": "locations",
+    "displayName": "Location"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.meta-page"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "location-page.location"
+    },
+    "usefulFAQs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "location-page.use-ful-fa-qs"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_services_page_all_services",
+  "info": {
+    "displayName": "AllServices"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services-page.item-service"
+    }
+  }
+}
